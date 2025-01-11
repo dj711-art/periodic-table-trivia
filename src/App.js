@@ -12,7 +12,6 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Periodic Table Trivia</h1>
       <div className="score">Score: {score}</div>
       <Trivia onScoreChange={handleScoreChange} />
       <div className="elements-grid">
