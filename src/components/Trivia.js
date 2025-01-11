@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import questions from './questions.json';
+import questions from './data/questions.json';
 
 const Trivia = ({ onScoreChange }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);

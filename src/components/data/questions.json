@@ -1,0 +1,292 @@
+[
+    {
+        "question": "What is the atomic number of Hydrogen?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "What is the symbol for Gold?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Au"
+    },
+    {
+        "question": "What is the atomic mass of Carbon?",
+        "options": [
+            "10.01",
+            "11.01",
+            "12.01",
+            "13.01"
+        ],
+        "correctAnswer": "12.01"
+    },
+    {
+        "question": "What is the atomic number of Oxygen?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correctAnswer": "8"
+    },
+    {
+        "question": "What is the symbol for Sodium?",
+        "options": [
+            "Na",
+            "K",
+            "S",
+            "N"
+        ],
+        "correctAnswer": "Na"
+    },
+    {
+        "question": "What is the atomic mass of Helium?",
+        "options": [
+            "2.00",
+            "3.00",
+            "4.00",
+            "5.00"
+        ],
+        "correctAnswer": "4.00"
+    },
+    {
+        "question": "What is the atomic number of Nitrogen?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correctAnswer": "7"
+    },
+    {
+        "question": "What is the symbol for Iron?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Fe"
+    },
+    {
+        "question": "What is the atomic mass of Oxygen?",
+        "options": [
+            "14.01",
+            "15.01",
+            "16.00",
+            "17.00"
+        ],
+        "correctAnswer": "16.00"
+    },
+    {
+        "question": "What is the atomic number of Neon?",
+        "options": [
+            "16",
+            "17",
+            "18",
+            "10"
+        ],
+        "correctAnswer": "10"
+    },
+    {
+        "question": "What is the symbol for Potassium?",
+        "options": [
+            "Na",
+            "K",
+            "S",
+            "N"
+        ],
+        "correctAnswer": "K"
+    },
+    {
+        "question": "What is the atomic mass of Nitrogen?",
+        "options": [
+            "10.01",
+            "11.01",
+            "12.01",
+            "14.01"
+        ],
+        "correctAnswer": "14.01"
+    },
+    {
+        "question": "What is the atomic number of Silicon?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "14"
+        ],
+        "correctAnswer": "14"
+    },
+    {
+        "question": "What is the symbol for Silver?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Ag"
+    },
+    {
+        "question": "What is the atomic mass of Sodium?",
+        "options": [
+            "10.01",
+            "11.01",
+            "12.01",
+            "22.99"
+        ],
+        "correctAnswer": "22.99"
+    },
+    {
+        "question": "What is the atomic number of Phosphorus?",
+        "options": [
+            "6",
+            "7",
+            "15",
+            "9"
+        ],
+        "correctAnswer": "15"
+    },
+    {
+        "question": "What is the symbol for Copper?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Cu"
+    },
+    {
+        "question": "What is the atomic mass of Potassium?",
+        "options": [
+            "10.01",
+            "11.01",
+            "12.01",
+            "39.09"
+        ],
+        "correctAnswer": "39.09"
+    },
+    {
+        "question": "What is the atomic number of Sulfur?",
+        "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "correctAnswer": "16"
+    },
+    {
+        "question": "What is the symbol for Nickel?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Ni"
+        ],
+        "correctAnswer": "Ni"
+    },
+    {
+        "question": "What is the atomic mass of Iron?",
+        "options": [
+            "10.01",
+            "11.01",
+            "55.85",
+            "13.01"
+        ],
+        "correctAnswer": "55.85"
+    },
+    {
+        "question": "What is the atomic number of Chlorine?",
+        "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "correctAnswer": "17"
+    },
+    {
+        "question": "What is the symbol for Zinc?",
+        "options": [
+            "Zn",
+            "Au",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Zn"
+    },
+    {
+        "question": "What is the atomic mass of Copper?",
+        "options": [
+            "60.01",
+            "62.55",
+            "63.55",
+            "64.55"
+        ],
+        "correctAnswer": "63.55"
+    },
+    {
+        "question": "What is the atomic number of Argon?",
+        "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "correctAnswer": "18"
+    },
+    {
+        "question": "What is the symbol for Mercury?",
+        "options": [
+            "Ag",
+            "Hg",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Hg"
+    },
+    {
+        "question": "What is the atomic mass of Zinc?",
+        "options": [
+            "64.38",
+            "65.38",
+            "66.38",
+            "67.381"
+        ],
+        "correctAnswer": "65.38"
+    },
+    {
+        "question": "What is the atomic number of Potassium?",
+        "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "correctAnswer": "19"
+    },
+    {
+        "question": "What is the symbol for Lead?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Pb"
+        ],
+        "correctAnswer": "Pb"
+    }
+]
