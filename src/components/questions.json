@@ -1,0 +1,17 @@
+[
+    {
+      "question": "What is the atomic number of Hydrogen?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "What is the symbol for Gold?",
+      "options": ["Ag", "Au", "Fe", "Cu"],
+      "correctAnswer": "Au"
+    },
+    {
+      "question": "What is the atomic mass of Carbon?",
+      "options": ["10.01", "11.01", "12.01", "13.01"],
+      "correctAnswer": "12.01"
+    }
+  ]

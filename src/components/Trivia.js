@@ -1,44 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import questions from './questions.json';
 
-const Trivia = () => {
+const Trivia = ({ onScoreChange }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [isCorrect, setIsCorrect] = useState(null);
 
-  const questions = [
-    {
-      question: 'What is the atomic number of Hydrogen?',
-      options: ['1', '2', '3', '4'],
-      correctAnswer: '1'
-    },
-    {
-      question: 'What is the symbol for Gold?',
-      options: ['Ag', 'Au', 'Fe', 'Cu'],
-      correctAnswer: 'Au'
-    },
-    {
-      question: 'What is the atomic mass of Carbon?',
-      options: ['10.01', '11.01', '12.01', '13.01'],
-      correctAnswer: '12.01'
-    }
-  ];
-
-  const handleAnswerSubmit = (selectedAnswer) => {
-    const currentQuestion = questions[currentQuestionIndex];
-    const isAnswerCorrect = selectedAnswer === currentQuestion.correctAnswer;
-    
-    if (isAnswerCorrect) {
+  const handleAnswerSubmit = (option) => {
+    if (option === questions[currentQuestionIndex].correctAnswer) {
       setScore(score + 1);
+      setIsCorrect(true);
+    } else {
+      setIsCorrect(false);
     }
-    
-    setIsCorrect(isAnswerCorrect);
-    
-    // Move to next question after a short delay
+
+    onScoreChange(score + 1);
+
     setTimeout(() => {
-      if (currentQuestionIndex < questions.length - 1) {
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
-        setIsCorrect(null);
-      }
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setIsCorrect(null);
     }, 1000);
   };
 
@@ -49,7 +29,7 @@ const Trivia = () => {
       {currentQuestionIndex < questions.length ? (
         <div className="question-container">
           <div className='question'>
-          {questions[currentQuestionIndex].question}
+            {questions[currentQuestionIndex].question}
           </div>
           <div className="options-container">
             {questions[currentQuestionIndex].options.map((option, index) => (
