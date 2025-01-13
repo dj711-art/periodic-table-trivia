@@ -5,9 +5,11 @@ const Trivia = ({ onScoreChange }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [isCorrect, setIsCorrect] = useState(null);
+  const [answeredQuestions, setAnsweredQuestions] = useState([]);
 
   const handleAnswerSubmit = (option) => {
-    if (option === questions[currentQuestionIndex].correctAnswer) {
+    const isAnswerCorrect = option === questions[currentQuestionIndex].correctAnswer;
+    if (isAnswerCorrect) {
       setScore(score + 1);
       setIsCorrect(true);
     } else {
@@ -15,6 +17,14 @@ const Trivia = ({ onScoreChange }) => {
     }
 
     onScoreChange(score + 1);
+
+    setAnsweredQuestions([
+      ...answeredQuestions,
+      {
+        question: questions[currentQuestionIndex].question,
+        correctAnswer: questions[currentQuestionIndex].correctAnswer,
+      },
+    ]);
 
     setTimeout(() => {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
@@ -47,6 +57,17 @@ const Trivia = ({ onScoreChange }) => {
         <div className="quiz-end">
           <h3>Quiz Complete!</h3>
           <p>Final Score: {score} out of {questions.length}</p>
+          <div className="answered-questions">
+            <h4>Questions and Correct Answers:</h4>
+            <div className="questions-list">
+              {answeredQuestions.map((item, index) => (
+                <div key={index} className="question-item">
+                  <p><strong>Q:</strong> {item.question}</p>
+                  <p><strong>A:</strong> {item.correctAnswer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       )}
 

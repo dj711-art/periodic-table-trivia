@@ -113,3 +113,17 @@ h3 {
     padding: 25px;
   }
 }
+
+.answered-questions {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.questions-list {
+  padding: 10px;
+}
+
+.question-item {
+  margin-bottom: 10px;
+}
