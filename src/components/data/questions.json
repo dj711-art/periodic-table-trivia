@@ -288,5 +288,55 @@
             "Pb"
         ],
         "correctAnswer": "Pb"
+    },
+    {
+        "question": "Who is credited with creating the first periodic table?",
+        "options": [
+            "Dmitri Mendeleev",
+            "Marie Curie",
+            "Albert Einstein",
+            "Isaac Newton"
+        ],
+        "correctAnswer": "Dmitri Mendeleev"
+    },
+    {
+        "question": "What is the electron configuration of Carbon?",
+        "options": [
+            "1s2 2s2 2p2",
+            "1s2 2s2 2p6",
+            "1s2 2s2 2p4",
+            "1s2 2s2 2p3"
+        ],
+        "correctAnswer": "1s2 2s2 2p2"
+    },
+    {
+        "question": "What is the electron configuration of Neon?",
+        "options": [
+            "1s2 2s2 2p6",
+            "1s2 2s2 2p4",
+            "1s2 2s2 2p2",
+            "1s2 2s2 2p3"
+        ],
+        "correctAnswer": "1s2 2s2 2p6"
+    },
+    {
+        "question": "Which element was discovered by Marie Curie?",
+        "options": [
+            "Radium",
+            "Uranium",
+            "Plutonium",
+            "Thorium"
+        ],
+        "correctAnswer": "Radium"
+    },
+    {
+        "question": "What is the electron configuration of Oxygen?",
+        "options": [
+            "1s2 2s2 2p4",
+            "1s2 2s2 2p6",
+            "1s2 2s2 2p2",
+            "1s2 2s2 2p3"
+        ],
+        "correctAnswer": "1s2 2s2 2p4"
     }
 ]
